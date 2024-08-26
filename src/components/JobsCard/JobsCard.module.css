@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.imgContainer {
+    width: 40%;
+    height: 350px;
+}
+
+.imgContainer img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.elements {
+    width: 59%;
+}
+
+.elements h3 {
+    font-size: 1.8rem;
+    color: var(--blue);
+}
+
+.elements p {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 25px;
+}
+
+.btn a {
+    background-color: inherit;
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn a:hover {
+    background-color: var(--blue);
+    border: 1px solid var(--white);
+    color: white;
+}
