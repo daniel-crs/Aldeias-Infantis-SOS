@@ -1,17 +1,17 @@
 import { Navbar } from "../../components/Navbar"
-import { Footer } from "../../components/Footer"
-import { Backgroundhome } from "../../components/Backgroudhome"
-
-
+import { VoluntaryBanner } from "../../components/VoluntaryBanner"
+// import { Footer } from "../../components/Footer"
 
 export function Home() {
     return (
         <div>
-            <Navbar/>
+            <Navbar />
+
             <body>
-                <Backgroundhome/>
+                <VoluntaryBanner />
             </body>
-            <Footer/>
+
+            {/* <Footer/> */}
         </div>
     )
 }
