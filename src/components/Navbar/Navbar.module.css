@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 20px 0;
+    border-bottom: 1px solid var(--blue);
+}
+
+.container img{
+    margin-left: 50px;
+}
+
+.elements {
+    display: flex;
+    gap: 75px;
+
+    margin-right: 50px;
+}
+
+.elements a {
+    color: var(--blue);
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.elements a:hover {
+    color: var(--darkblue);
+}
