@@ -1,0 +1,22 @@
+.container {
+    margin-top: 70px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.sideBar {
+    background-color: var(--blue);
+    height: 5px;
+    width: 325px;
+    border-radius: 100px;
+}
+
+.title h3 {
+    font-size: 2.2rem;
+    color: var(--blue);
+}

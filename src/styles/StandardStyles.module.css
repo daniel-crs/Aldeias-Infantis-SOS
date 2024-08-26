@@ -1,0 +1,6 @@
+.standardContainer {
+    width: var(--container-size);
+
+    margin-left: auto;
+    margin-right: auto;
+}
