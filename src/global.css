@@ -1,0 +1,23 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  margin: 0 auto;
+}
+
+body, input, textarea, button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+:root {
+  --blue:rgba(0, 159, 227, 1);
+  --darkblue: rgba( 0, 136, 186);
+  
+  --container-size: 90%;
+}

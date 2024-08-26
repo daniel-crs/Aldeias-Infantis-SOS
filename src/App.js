@@ -1,9 +1,13 @@
-import styles from "./App.module.css"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import { Home } from "./screens/Home";
 
 export function App() {
   return (
-    <div className={styles.container}>
-      <h1>Hello World</h1>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
   )
 }
