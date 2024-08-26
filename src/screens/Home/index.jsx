@@ -3,7 +3,7 @@ import styles from "../../styles/StandardStyles.module.css"
 import { Navbar } from "../../components/Navbar";
 import { VoluntaryBanner } from "../../components/VoluntaryBanner";
 import { JobsDone } from "../../components/JobsDone";
-// import { Footer } from "../../components/Footer;"
+import { Footer } from "../../components/Footer";
 
 export function Home() {
     return (
@@ -19,7 +19,7 @@ export function Home() {
                     
             </body>
 
-            {/* <Footer/> */}
+            <Footer/>
         </div>
     )
 }
