@@ -18,6 +18,8 @@ body, input, textarea, button {
 :root {
   --blue:rgba(0, 159, 227, 1);
   --darkblue: rgba( 0, 136, 186);
+
+  --gray: #E8E8E8;
   
   --container-size: 85%;
 }
