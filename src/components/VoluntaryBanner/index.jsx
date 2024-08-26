@@ -1,7 +1,7 @@
-import styles from "./Backgroundhome.module.css";
+import styles from "./VoluntaryBanner.module.css";
 import backgroundImage from "../../assets/backgroundImage.png";
 
-export function Backgroundhome() {
+export function VoluntaryBanner() {
     return (
         <div className={styles.container} >
             <img src={backgroundImage} alt="" />

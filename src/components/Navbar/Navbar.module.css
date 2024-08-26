@@ -13,7 +13,7 @@
 
 .elements {
     display: flex;
-    gap: 75px;
+    gap: 50px;
 
     margin-right: 50px;
 }
