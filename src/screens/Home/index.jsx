@@ -14,7 +14,7 @@ export function Home() {
                 <VoluntaryBanner />
 
                 <div className={styles.standardContainer}>
-                    <JobsDone />
+                    <JobsDone/>
                 </div>
                     
             </body>
