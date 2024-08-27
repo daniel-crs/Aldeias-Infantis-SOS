@@ -7,8 +7,8 @@ export function Navbar(){
             <img src={logo} alt="" />
 
             <div className={styles.elements}>
-                <a href="#">Home</a>
-                <a href="#">Voluntario</a>
+                <a href="/">Home</a>
+                <a href="/Voluntarios">Voluntario</a>
                 <a href="#">Vagas</a>
                 <a href="#">Entrar</a>
             </div>
