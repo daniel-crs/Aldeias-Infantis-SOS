@@ -1,4 +1,5 @@
 import { Navbar } from "../../components/Navbar"
+import { VoluntaryImg } from "../../components/VoluntaryImg"
 import { Footer } from "../../components/Footer"
 
 export function Volunteering() {
@@ -7,7 +8,7 @@ export function Volunteering() {
             <Navbar />
 
             <body>
-                
+                <VoluntaryImg />
             </body>
 
             <Footer />
